@@ -1,13 +1,31 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import reportWebVitals from "./reportWebVitals";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import App from "./App";
+import App22 from "./exercises/E2.2.jsx";
+import App31 from "./exercises/E3.1.jsx";
+import App32 from "./exercises/E3.2.jsx";
+import App41 from "./exercises/E4.1.jsx";
+import App42 from "./exercises/E4.2.jsx";
+import App61 from "./exercises/E6.1.jsx";
+import App71 from "./exercises/E7.1.jsx";
+import App72 from "./exercises/E7.2.jsx";
+import App73 from "./exercises/E7.3.jsx";
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <App22 /> */}
+    {/* <App31 /> */}
+    {/* <App32 /> */}
+    {/* <App41 /> */}
+    {/* <App42 /> */}
+    {/* <App61 /> */}
+    {/* <App71 /> */}
+    {/* <App72 /> */}
+    <App73 />
   </React.StrictMode>
 );
 
