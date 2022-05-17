@@ -6,26 +6,29 @@ class App73 extends React.Component {
     this.state = { count: 0, color: "black" };
   }
   add = () => {
-    if (this.state.count !== 10) {
-      if (this.state.count >= 0) {
+    let count = this.state.count;
+    if (count !== 10) {
+      count = this.state.count + 1;
+      this.setState({ count: count });
+      if (count > 0) {
         this.setState({ color: "green" });
       }
-      this.state.count++;
-      this.setState({ count: this.state.count });
     }
-    if (this.state.count === 0) {
+
+    if (count === 0) {
       this.setState({ color: "black" });
     }
   };
   minus = () => {
-    if (this.state.count !== -10) {
-      if (this.state.count <= 0) {
+    let count = this.state.count;
+    if (count !== -10) {
+      count = this.state.count - 1;
+      if (count < 0) {
         this.setState({ color: "red" });
       }
-      this.state.count--;
-      this.setState({ count: this.state.count });
+      this.setState({ count: count });
     }
-    if (this.state.count === 0) {
+    if (count === 0) {
       this.setState({ color: "black" });
     }
   };

@@ -13,6 +13,10 @@ import App61 from "./exercises/E6.1.jsx";
 import App71 from "./exercises/E7.1.jsx";
 import App72 from "./exercises/E7.2.jsx";
 import App73 from "./exercises/E7.3.jsx";
+import App81 from "./exercises/E8.1.jsx";
+import App82 from "./exercises/E8.2.jsx";
+import App83 from "./exercises/E8.3.jsx";
+import App91 from "./exercises/E9.1.jsx";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
@@ -26,6 +30,10 @@ root.render(
     {/* <App71 /> */}
     {/* <App72 /> */}
     <App73 />
+    {/* <App81 /> */}
+    {/* <App82 /> */}
+    {/* <App83 /> */}
+    {/* <App91 /> */}
   </React.StrictMode>
 );
 
