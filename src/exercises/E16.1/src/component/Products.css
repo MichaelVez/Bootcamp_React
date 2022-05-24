@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.products {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: space-evenly;
+  border: 1px solid black;
+  flex-wrap: wrap;
+}
+.products span {
+  width: 49%;
+  height: 400px;
+  border: 1px solid cornflowerblue;
+  border-radius: 30px;
+  text-align: center;
+  margin: 5px;
+}
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.product img {
+  background: cover;
+  width: 200px;
+}

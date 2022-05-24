@@ -11,8 +11,9 @@ export default class App142 extends Component {
 
     alert("coppied");
     let myTextBox = this.textRef.current;
-    //focus after alert
+    //focus after alert because i learned this a seconds ago ((:
     myTextBox.focus();
+    // this.textRef.current.select();
   };
   render() {
     return (
