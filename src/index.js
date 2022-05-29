@@ -22,9 +22,13 @@ import reportWebVitals from "./reportWebVitals";
 // import App113 from "./exercises/E11.3.jsx";
 // import App121 from "./exercises/E12.1.jsx";
 // import App131 from "./exercises/E13.1.jsx";
-import App132 from "./exercises/E13.2.jsx";
+// import App132 from "./exercises/E13.2.jsx";
 // import App141 from "./exercises/E14.1.jsx";
 // import App142 from "./exercises/E14.2.jsx";
+// import App181 from "./exercises/E18.1.jsx";
+// import App182 from "./exercises/E18.2.jsx";
+// import App183 from "./exercises/E18.3.jsx";
+import App184 from "./exercises/E18.4.jsx";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
@@ -47,9 +51,13 @@ root.render(
     {/* <App113 /> */}
     {/* <App121 /> */}
     {/* <App131 /> */}
-    <App132 />
+    {/* <App132 /> */}
     {/* <App141 /> */}
     {/* <App142 /> */}
+    {/* <App181 /> */}
+    {/* <App182 /> */}
+    {/* <App183 /> */}
+    <App184 />
   </React.StrictMode>
 );
 
