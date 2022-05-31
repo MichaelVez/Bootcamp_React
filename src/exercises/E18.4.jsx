@@ -38,7 +38,8 @@ const App184 = () => {
     let updateArr = newData.map((item, i) => {
       if (checked[i]) {
         return;
-      } else return item;
+      }
+      return item;
     });
     console.log(updateArr);
     let newArr = [];

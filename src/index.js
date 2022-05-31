@@ -28,10 +28,13 @@ import reportWebVitals from "./reportWebVitals";
 // import App181 from "./exercises/E18.1.jsx";
 // import App182 from "./exercises/E18.2.jsx";
 // import App183 from "./exercises/E18.3.jsx";
-import App184 from "./exercises/E18.4.jsx";
+// import App184 from "./exercises/E18.4.jsx";
+// import App191 from "./exercises/E19.1.jsx";
+// import App192 from "./exercises/E19.2.jsx";
+import App193 from "./exercises/E19.3.jsx";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
+  <React.Fragment>
     {/* <App /> */}
     {/* <App22 /> */}
     {/* <App31 /> */}
@@ -57,8 +60,11 @@ root.render(
     {/* <App181 /> */}
     {/* <App182 /> */}
     {/* <App183 /> */}
-    <App184 />
-  </React.StrictMode>
+    {/* <App184 /> */}
+    {/* <App191 /> */}
+    {/* <App192 /> */}
+    <App193 />
+  </React.Fragment>
 );
 
 // If you want to start measuring performance in your app, pass a function
