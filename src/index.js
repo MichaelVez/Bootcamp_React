@@ -31,7 +31,11 @@ import reportWebVitals from "./reportWebVitals";
 // import App184 from "./exercises/E18.4.jsx";
 // import App191 from "./exercises/E19.1.jsx";
 // import App192 from "./exercises/E19.2.jsx";
-import App193 from "./exercises/E19.3.jsx";
+// import App193 from "./exercises/E19.3.jsx";
+// import App201 from "./exercises/E20.1.jsx";
+// import App211 from "./exercises/E21.1.jsx";
+// import App212 from "./exercises/E21.2.jsx";
+import App213 from "./exercises/E21.3.jsx";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.Fragment>
@@ -63,7 +67,11 @@ root.render(
     {/* <App184 /> */}
     {/* <App191 /> */}
     {/* <App192 /> */}
-    <App193 />
+    {/* <App193 /> */}
+    {/* <App201 /> */}
+    {/* <App211 /> */}
+    {/* <App212 /> */}
+    <App213 />
   </React.Fragment>
 );
 
